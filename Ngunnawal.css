@@ -1,0 +1,11 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+.grid-container {
+    display:grid;
+    grid-template-columns: auto auto; /*2 column grid, auto size for width */
+    grid-gap: 1em;
+    padding: 1em;
+}
