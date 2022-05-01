@@ -14,3 +14,6 @@ h1 {
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.grid-container > div {
+    background-color: rgba(0,0,0, 0.2);
+}
