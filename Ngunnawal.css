@@ -24,15 +24,13 @@
     grid-row-end: 4;
 }
 
-
-
 .navbar {
     overflow: hidden;
     background-color: #333333;
 }
 
 .navbar a {
-    float: left;
+    /*float: left;*/
     font-size: 1em;
     color: white;
     text-align: center;
@@ -42,4 +40,15 @@
 
 .navbar a:hover {
     background-color: #2ccbb4;
+}
+
+.navbar img {
+    margin-bottom: 1em;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
